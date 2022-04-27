@@ -50,11 +50,11 @@ Define a custom smile symbol and display it on the center of first row
     
 Running a crontab for a script run every 3 minnut
 
-    >>> crontab -e
+    crontab -e
 
 put this code on
 
-    >>> */3 * * * * python3 /root/lcd2usb/getip.py
+    */3 * * * * python3 /root/lcd2usb/getip.py
 
 That it!
 
