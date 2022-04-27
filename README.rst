@@ -47,6 +47,14 @@ Define a custom smile symbol and display it on the center of first row
     >>> from lcd2usb import SMILE_SYMBOL
     >>> lcd.define_char(0, SMILE_SYMBOL)
     >>> lcd.write('\0', 9, 0)
+    
+Running a crontab for a script run every 3 minnut
+
+    >>> crontab -e
+
+put this code on
+
+    >>> */3 * * * * python3 /root/lcd2usb/getip.py
 
 That it!
 
