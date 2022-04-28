@@ -65,13 +65,13 @@ If you need a quickly running test for your device, use this::
 Requirements
 ============
 
-- Python_ 3 required
+- Python_ 3 and PIP required
+>>> apt install python3-pip -y
 
 - ctypes_ (included in Python)
 
-- libusb-1.0_
-
-- python-libusb1_
+- libusb-1.0_ or python-libusb1
+>>> pip install libusb
 
 Installation
 ============
