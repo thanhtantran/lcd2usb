@@ -69,7 +69,7 @@ Requirements
     apt install python3-pip -y
 
 - libusb-1.0_ or python-libusb1
-    pip install libusb
+    pip install libusb1
 
 Installation
 ============
