@@ -66,12 +66,10 @@ Requirements
 ============
 
 - Python_ 3 and PIP required
->>> apt install python3-pip -y
-
-- ctypes_ (included in Python)
+    apt install python3-pip -y
 
 - libusb-1.0_ or python-libusb1
->>> pip install libusb
+    pip install libusb
 
 Installation
 ============
